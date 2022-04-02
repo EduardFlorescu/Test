@@ -24,12 +24,18 @@ namespace Stuffs
             return x / y;
         }
 
+        public static int Absolute(int x)
+        {
+            return Math.Abs(x);
+        }
+
         static void Main(string[] args)
         {
             Console.WriteLine(Addition(2, 3));
             Console.WriteLine(Substraction(2, 3));
             Console.WriteLine(Multiplication(2, 3));
             Console.WriteLine(Division(2, 3));
+            Console.WriteLine(Absolute(-3));
         }
     }
 }
